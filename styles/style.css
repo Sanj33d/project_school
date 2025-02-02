@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-header, main{
+header{
     background-color: pink;
     padding: 20px 140px;
 }
@@ -172,4 +172,63 @@ hr{
 
 .hide{
     display: none;
+}
+
+/* section curriculum styles */
+
+.sec-curriculum{
+    background-image: url("../images/bg.png");
+    padding: 0px 140px;
+}
+
+.curriculum-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.curriculum-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 33px;
+    text-align: center;
+
+    border-radius: 18px;
+
+    padding: 53px 40px;
+
+}
+
+.curriculum-card-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.curriculum-title{
+    font-size: 46px;
+    font-weight:700;
+    text-align: center;
+
+    margin-top: 60px;
+    margin-bottom: 80px;     
+}
+
+.curriculum-card-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #808080;
+}
+
+.cur-card-1{
+    background: linear-gradient(180deg, #DEF5FF, #FFFFFF);
+    border: 1px solid #DEF5FF
+}
+.cur-card-2{
+    background: linear-gradient(180deg, #FFF4DC, #FFFFFF);
+    border: 1px solid #FFF4DC;
+}
+.cur-card-3{
+    background: linear-gradient(180deg, #F2E8FF, #FFFFFF);
+    border: 1px solid #F2E8FF;
 }
