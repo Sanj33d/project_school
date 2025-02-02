@@ -72,6 +72,10 @@ nav{
     display: none;
 }
 
+.nested-text{
+    display: none;
+}
+
 hr{
     display: none;
 }
@@ -105,9 +109,19 @@ hr{
         border-top: 0.5px solid orange;
     }
 
-    /* banner responsive styles */
-    .banner{
+    /* banner responsive styles */ 
+    .banner{           
         flex-direction: column-reverse;
+    }
+    .banner-content{
+        text-align: center;
+    }
+    .text-center{
+        text-align: center;
+    }
+
+    .nested-text{
+        display: block;
     }
 }
 
