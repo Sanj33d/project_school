@@ -6,10 +6,15 @@
     padding: 0px;
 }
 
-header{
+body{
     background-color: pink;
+}
+
+header{
     padding: 20px 140px;
 }
+
+
 
 /* nav styles */
 
@@ -133,7 +138,7 @@ hr{
 
 .sec-curriculum{
     background-image: url("../images/bg.png");
-    padding: 0px 140px;
+    padding: 0px 224px;
 }
 
 .curriculum-container{
@@ -176,7 +181,7 @@ hr{
 }
 
 .cur-card-1{
-    background: linear-gradient(180deg, rgb(224, 246, 255) 1%, #FFFFFF);
+    background: linear-gradient(180deg, rgb(224, 246, 255), #FFFFFF);
     border: 1px solid #DEF5FF
 }
 .cur-card-2{
@@ -188,9 +193,26 @@ hr{
     border: 1px solid #F2E8FF;
 }
 
+.curriculum-readmore1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #64C8FF; 
+}
+.curriculum-readmore2{
+    font-size: 15px;
+    font-weight: 700;
+    color: #F0AA00; 
+}
+.curriculum-readmore3{
+    font-size: 15px;
+    font-weight: 700;
+    color: #8700FF; 
+}
+
 .cirlce{
     font-size: 5em;
     color: orange;
+    cursor: pointer;
 }
 
 .left-arrow{
@@ -211,13 +233,95 @@ hr{
     bottom: 13px;
 }
 
+.pointer{
+    cursor: pointer;
+}
+
 .arrows{
     display: flex;
     justify-content: center;
-    align-items: center;
 
     margin-top: 80px;
 }
+
+/* sec storie */
+
+.stories-title{
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.sec-stories{
+    background-image: url("../images/bg.png");
+    margin: 0px 140px;
+}
+
+.stories-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+
+    margin-top: 80px;
+}
+
+.big-story-container div{
+    height: 50%;
+}
+
+.big-story-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.small-stories-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.big-story-content{
+    margin-top: 59px;
+}
+
+.big-story-logo{
+    background-color: #3CD8E8;
+    padding: 15px 19px;
+    border: none;
+    border-radius: 47px;
+
+    position: relative;
+    top:-25px;
+    left: 38px;
+}
+
+.big-story-caption{
+    font-size: 24px;
+    font-weight:bold;
+
+    padding-left: 38px;
+}
+
+.big-story-description{
+    font-size: 15px;
+    font-weight:500;
+    color: #666666;
+    
+    margin-top: 47px;
+    padding-left: 38px;
+}
+
+.big-story-container{
+    background-color: white;
+    border-radius: 16px;
+}
+
+/* .story-caption{
+    margin-top: 59px;;
+} */
+
 @media screen and (max-width: 576px){
     header{
         padding: 12px 16px;
