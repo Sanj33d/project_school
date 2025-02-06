@@ -292,13 +292,15 @@ hr{
 }
 
 .big-story-logo{
+    font-size: 20px;
     background-color: #3CD8E8;
-    padding: 15px 19px;
+    padding: 19px 23px;
     border: none;
     border-radius: 47px;
+    color: white;
 
     position: relative;
-    top:-125px;
+    top:-75px;
     left: 38px;
 }
 
@@ -316,22 +318,23 @@ hr{
 }
 
 .small-story-logo{
-    font-size: 15x;
+    font-size: 17px;
     font-weight: 500;
     background-color: #95B226;
+    color: white;
 
-    padding: 10px 19px;
+    padding: 15px 23px;
 
     border: none;
     border-radius: 47px;
 
     position: relative;
-    top:-23px;
+    top:-30px;
     left: 38px;
 }
 
 .small-story-caption{
-    font-size: 15px;
+    font-size: 23px;
     font-weight:bold;
 
     padding-left: 38px;
