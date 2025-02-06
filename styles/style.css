@@ -242,9 +242,15 @@ hr{
     justify-content: center;
 
     margin-top: 80px;
+    margin-bottom: 60px;
 }
 
-/* sec storie */
+/* sec stories */
+
+.sec-stories{
+    background-image: url("../images/bg.png");
+    margin: 0px 140px;
+}
 
 .stories-title{
     font-size: 46px;
@@ -253,37 +259,36 @@ hr{
 
 }
 
-.sec-stories{
-    background-image: url("../images/bg.png");
-    margin: 0px 140px;
-}
-
 .stories-container{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 18px;
 
     margin-top: 80px;
 }
 
-.big-story-container div{
+/* .big-story-container div, .small-story-container div{
     height: 50%;
-}
+} */
 
-.big-story-container img{
+.big-story-container img, .small-story-container img{ 
     height: 100%;
     width: 100%;
-    border-radius: 16px;
+    border-radius: 16px 16px 0px 0px;
 }
 
 .small-stories-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.stories-container div{
+    flex: 1;
 }
 
 .big-story-content{
-    margin-top: 59px;
+    padding: 38px;
 }
 
 .big-story-logo{
@@ -293,35 +298,65 @@ hr{
     border-radius: 47px;
 
     position: relative;
-    top:-25px;
+    top:-125px;
     left: 38px;
 }
 
 .big-story-caption{
-    font-size: 24px;
+    font-size: 34px;
+    font-weight:bold;
+}
+
+.big-story-description{
+    font-size: 21px;
+    font-weight:500;
+    color: #666666;
+    
+    margin-top: 48px;
+}
+
+.small-story-logo{
+    font-size: 15x;
+    font-weight: 500;
+    background-color: #95B226;
+
+    padding: 10px 19px;
+
+    border: none;
+    border-radius: 47px;
+
+    position: relative;
+    top:-23px;
+    left: 38px;
+}
+
+.small-story-caption{
+    font-size: 15px;
     font-weight:bold;
 
     padding-left: 38px;
 }
 
-.big-story-description{
-    font-size: 15px;
-    font-weight:500;
-    color: #666666;
-    
-    margin-top: 47px;
-    padding-left: 38px;
-}
-
-.big-story-container{
+.big-story-container, .small-story-container{
     background-color: white;
     border-radius: 16px;
 }
 
-/* .story-caption{
-    margin-top: 59px;;
-} */
+.btn-view-all{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
 
+    padding: 10px 61px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 80px;
+}
+
+.btn-view-all-parent{
+    text-align: center;
+}
 @media screen and (max-width: 576px){
     header{
         padding: 12px 16px;
