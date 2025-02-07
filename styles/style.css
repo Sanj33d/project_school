@@ -6,9 +6,9 @@
     padding: 0px;
 }
 
-body{
+/* body{
     background-color: pink;
-}
+} */
 
 header{
     padding: 20px 140px;
@@ -252,8 +252,9 @@ hr{
 /* sec stories */
 
 .sec-stories{
-    background-image: url("../images/bg.png");
-    margin: 0px 140px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3)) ,url("../images/bg.png");
+    background-size: cover;
+    padding: 0px 140px 70px 140px;
 }
 
 .stories-title{
@@ -366,8 +367,6 @@ hr{
 
 .btn-view-all-parent{
     text-align: center;
-
-    margin-bottom: 70px;
 }
 
 /* footer */
@@ -479,6 +478,7 @@ footer{
         display: block;
     }
     /* sec curriculum styles */
+
     .sec-curriculum{
         background-image: url("../images/bg.png");
         padding: 0px 70px;
@@ -500,9 +500,10 @@ footer{
     }
 
     /* sec stories */
+
     .sec-stories{
-        background-image: url("../images/bg.png");
-        margin: 0px 17px;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3)) ,url("../images/bg.png");
+        padding: 0px 17px 40px 17px;
     }
     .big-story-container{
         display: none;
@@ -534,7 +535,7 @@ footer{
     /* footer responsive */
 
     footer{
-        padding: 65px 16px;
+        padding: 65px 27px;
     }
 
     .footer-container{
