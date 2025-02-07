@@ -140,7 +140,6 @@ hr{
 /* section curriculum styles */
 
 .sec-curriculum{
-    /* background-image: url("../images/bg.png"); */
     padding: 0px 224px;
 }
 
@@ -159,8 +158,6 @@ hr{
 
     border-radius: 18px;
     padding: 53px 40px;
-
-    background-color: white;
 }
 
 .curriculum-card-title{
@@ -217,6 +214,10 @@ hr{
     color: #8700FF; 
 }
 
+.curriculum-card{
+    background-color: white;
+}
+
 .circle{
     font-size: 5em;
     color: orange;
@@ -267,9 +268,13 @@ hr{
 }
 
 .big-story-container img, .small-story-container img{ 
-    height: 100%;
     width: 100%;
     border-radius: 16px 16px 0px 0px;
+}
+
+.big-story-container, .small-story-container{
+    background-color: white;
+    border-radius: 16px;
 }
 
 .small-stories-container{
@@ -339,10 +344,7 @@ hr{
     padding-left: 38px;
 }
 
-.big-story-container, .small-story-container{
-    background-color: white;
-    border-radius: 16px;
-}
+
 
 .btn-view-all{
     font-size: 20px;
@@ -433,6 +435,7 @@ footer{
     }
 
     /* nav responsive styles */
+
     .nav-mid{
         display: none;
     }
@@ -449,7 +452,6 @@ footer{
         font-size: 2em;
     }
 
-
     hr{
         display: block;
         margin-top: 12px;
@@ -457,19 +459,27 @@ footer{
     }
 
     /* banner responsive styles */ 
+
     .banner{           
         flex-direction: column-reverse;
     }
-    .banner-content{
-        text-align: center;
-    }
-    /* .text-center{
-        text-align: center;
-    } */
 
-    .nested-text{
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    
+        padding: 20px; /*hard coded*/
+    }
+
+    .hidden-in-static{
         display: block;
     }
+
+    .text-center{
+        text-align: center;
+    }
+
     /* sec curriculum styles */
 
     .sec-curriculum{
@@ -488,6 +498,7 @@ footer{
     }
     
     /* arrow */
+
     .arrows{
         display: none;
     }
@@ -495,9 +506,10 @@ footer{
     /* sec stories */
 
     .sec-stories{
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3)) ,url("../images/bg.png");
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3));
         padding: 0px 17px 40px 17px;
     }
+
     .big-story-container{
         display: none;
     }
@@ -507,7 +519,7 @@ footer{
         padding: 10px 23px;
         border-radius: 25px;
     
-        top:-25px;
+        top:-20px;
         left:30px;
     }
 
@@ -516,11 +528,12 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
+
     .small-story-caption{
         font-size: 15px;
-    
         padding: 20px;
     }
+    
     .btn-view-all{
         margin-top: 20px;
     }
