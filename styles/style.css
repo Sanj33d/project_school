@@ -46,18 +46,22 @@ nav{
 .nav-home{
     color: orange;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .nav-about{
     color: skyblue;
+    cursor: pointer;
 }
 
 .nav-facilities{
     color: #05D4DF;
+    cursor: pointer;
 }
 
 .nav-admission{
     color: #5D58EF;
+    cursor: pointer;
 }
 
 .nav-btn{
