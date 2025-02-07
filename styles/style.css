@@ -438,10 +438,41 @@ footer{
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
+
+    cursor: pointer;
 }
 
 .contact-container img{
     cursor: pointer;
+}
+
+/* Hover Effects over all buttons */
+
+.nav-btn:hover, .banner-btn:hover, .btn-view-all:hover{
+    background-color: rgb(18, 197, 18);
+}
+
+.circle i:hover, .arrow i:hover{
+        color: rgb(18, 197, 18);
+}
+
+.nav-home:hover, .nav-about:hover, .nav-facilities:hover, .nav-admission:hover, .curriculum-readmore:hover{
+    color: white;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.big-story-logo:hover, .small-story-logo:hover{
+    background-color: orange;
+}
+
+.footer-about .p:hover{
+    color:#F0AA00;
+}
+
+.footer-contacts img:hover{
+    border: 2px solid white;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 576px){
@@ -467,6 +498,11 @@ footer{
         font-size: 2em;
 
         cursor: pointer;
+    }
+
+    /* responsive hover effect */
+    .nav-menu:hover{
+        font-size: 2.5em;
     }
 
     hr{
