@@ -214,11 +214,11 @@ hr{
     cursor: pointer;
 }
 
-.cirlce{
+.circle{
     font-size: 5em;
     color: orange;
-    cursor: pointer;
 }
+
 
 .left-arrow{
     position: relative;
@@ -429,6 +429,10 @@ footer{
     font-size: 20px;
     font-weight: 600;
     margin-top: 20px;
+}
+
+.contact-container img{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 576px){
