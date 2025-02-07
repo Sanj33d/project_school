@@ -223,29 +223,37 @@ hr{
 .circle{
     font-size: 5em;
     color: orange;
-
-    background: none;
 }
 
-.left-arrow, .right-arrow{
-    position: relative;
+.arrow{
     color: white;
-    font-size: 2.6rem;
-
-    right: 72px;
-    bottom: 13px;
+    font-size: 3rem;
 }
 
-.arrows{
+.l-ar{
+    position: relative;
+    right: 30px;
+    bottom: 80px;
+}
+
+.r-ar{
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+
+.navigator{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     margin-top: 80px;
 }
 
-.circle > i > i{
+.navigator i{
     cursor: pointer;
 }
+
 /* sec stories */
 
 .sec-stories{
@@ -258,7 +266,8 @@ hr{
     font-size: 46px;
     font-weight: 700;
     text-align: center;
-    margin-top: 60px;
+
+    margin-top: 0px;
 }
 
 .stories-container{
@@ -501,7 +510,7 @@ footer{
     
     /* arrow */
 
-    .arrows{
+    .navigator{
         display: none;
     }
 
@@ -510,6 +519,10 @@ footer{
     .sec-stories{
         background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3));
         padding: 0px 17px 40px 17px;
+    }
+
+    .stories-title{
+        margin-top: 40px;
     }
 
     .big-story-container{
