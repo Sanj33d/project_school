@@ -476,6 +476,9 @@ footer{
 }
 
 @media screen and (max-width: 576px){
+
+    /* header (nav + banner) responseve */
+
     header{
         padding: 12px 16px;
     }
@@ -501,17 +504,27 @@ footer{
     }
 
     /* responsive hover effect */
+
     .nav-menu:hover{
         font-size: 2.5em;
     }
 
     hr{
         display: block;
-        margin-top: 12px;
+        margin: 12px -50px;
         border-top: 0.5px solid orange;
     }
 
     /* banner responsive styles */ 
+
+    .banner-img img{
+        width: 100%;
+    }
+
+    .banner-title{
+        font-size: 40px;
+        font-weight: 700;
+    }
 
     .banner{           
         flex-direction: column-reverse;
@@ -527,17 +540,21 @@ footer{
 
     .hidden-in-static{
         display: block;
+        white-space: pre;
+        word-break: break-word;
     }
 
     .text-center{
         text-align: center;
     }
 
-    /* sec curriculum styles */
+    /* main styles (section: curriculum + stories) responsive*/
+
+    /* sec curriculum responsive*/
 
     .sec-curriculum{
         background-image: url("../images/bg.png");
-        padding: 0px 70px;
+        padding: 0px 16px;
     }
     
     .curriculum-container{
@@ -556,7 +573,7 @@ footer{
         display: none;
     }
 
-    /* sec stories */
+    /* sec stories responsive*/
 
     .sec-stories{
         background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3));
