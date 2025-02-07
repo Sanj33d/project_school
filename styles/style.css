@@ -465,6 +465,8 @@ footer{
     .nav-menu{
         display: block;
         font-size: 2em;
+
+        cursor: pointer;
     }
 
     hr{
