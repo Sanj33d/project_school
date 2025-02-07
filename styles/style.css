@@ -531,5 +531,14 @@ footer{
         margin-top: 20px;
     }
     
+    /* footer responsive */
 
+    footer{
+        padding: 65px 16px;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        gap: 38px;
+    }
 }
