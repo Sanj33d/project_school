@@ -218,14 +218,13 @@ hr{
     background-color: white;
 }
 
+/* arrows */
+
 .circle{
     font-size: 5em;
     color: orange;
 
-    margin: auto;
     background: none;
-
-    cursor: pointer;
 }
 
 .left-arrow, .right-arrow{
@@ -244,6 +243,9 @@ hr{
     margin-top: 80px;
 }
 
+.circle > i > i{
+    cursor: pointer;
+}
 /* sec stories */
 
 .sec-stories{
